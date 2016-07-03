@@ -849,7 +849,7 @@
 	margin: 14px 0 0 16px;
 	padding-left: 22px;
 	float: left;
-	background: url(./img/xx/x01.jpg) no-repeat;
+	background: url(../img/xx/x01.jpg) no-repeat 0 10px;
 }
 
 .mr-b li{
