@@ -403,13 +403,12 @@
 	display : inline-block;
 }
 
-.ml-mu ul{
+.ml-mu ul,.mr-mu2{
 	float: right;
 	margin-right: 3px;
-
 }
 
-.ml-mu ul li{
+.ml-mu ul li,.mr-mu2 li{
 	float: right;
 	padding: 0 14px;
 	height: 33px;
@@ -420,7 +419,7 @@
 	line-height: 33px;
 }
 
-.ml-mu ul li:hover{
+.ml-mu ul li:hover,.mr-mu2 li:hover{
 	background: #02a5db;
 	color: #fff;
 }
@@ -754,31 +753,35 @@
 .ml2-2 li h5{
 	position: absolute;
 	margin: 0;
-	left: 6px;
-	top: 94px;
+	left: 5px;
+	top: 93px;
 	width: 175px;
 	height: 47px;
 	color: #fff;
 	font : 12px "microsoft yahei";
 	line-height: 23px; 
 	padding: 0 5px;
+	background: rgba(0,0,0,0.5);
 }
 
 .ml2-2 li p{
 	display: block;
 	float: left;
 	height: 76px;
-	width: ;
+	margin: 0; 
+	padding-top:5px ;
 	font: 11px "microsoft yahei";
 	line-height: 22px;
 	overflow: hidden;
-	border-bottom: 1px solid #dddddd;
+	border-bottom: 1px solid transparent;
 	color: #666666;
 }
 
+.ml2-2 li p:hover{border-color: #dddddd;}
+
 .ml2-21{
 	position: absolute;
-	bottom: 2px;
+	bottom: 10px;
 	left: 0;
 	height: 15px;
 	width: 190px;
@@ -787,24 +790,80 @@
 	color: #999999;
 }
 
+.ml2-21 a{
+	display: block;
+	float: left;
+	margin-left: 5px;
+	padding-left:  18px;
+	background: url(../img/xx/x33.jpg) no-repeat ;
+}
 
+.ml2-21 span{
+	display: block;
+	float: right;
+	padding-left: 20px;
+	background: url(../img/xx/x22.jpg) no-repeat ;
+}
 
+.mr-a{
+	margin: 24px 8px 0 10px;
+	padding : 0 0 18px 0;
+	border-bottom: 1px dotted #cccccc;
+	height: 83px;
+	width: 296px;
+	float: left;
+}
 
+.mr-a img{
+	border: 1px solid transparent;
+	width:100px ;
+	height: 72px;
+	margin-right: 6px;
+	float: left;
+}
 
+.mr-a img:hover{ border-color: #f00;}
 
+.mr-a h4{
+	font: 12px "microsoft yahei";
+	font-weight: 700;
+	float: left;
+	margin: 0;
+	width: 188px;
+	color: #474747; 
+	line-height: 20px;
+}
 
+.mr-a h4:hover{color: #999999;}
 
+.mr-a p{
+	font: 12px "microsoft yahei";
+	margin: 0;
+	display: block;
+	float: left;
+	width: 188px;
+	line-height: 20px;
+}
 
+.mr-b{
+	margin: 14px 0 0 16px;
+	padding-left: 22px;
+	float: left;
+	background: url(./img/xx/x01.jpg) no-repeat;
+}
 
+.mr-b li{
+	margin: 9px 0;
+	height: 15px;
+	float: left;
+	font: 11px "microsoft yahei";
+	line-height: 15px;
+	color: #5f5f5f;
+}
 
-
-
-
-
-
-
-
-
+.mr-b li a:hover{
+	color: #f00;
+}
 
 
 
